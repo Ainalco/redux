@@ -1,11 +1,13 @@
-import React from "react";
+  import React from "react";
+  import CounterView from "./features/counter/CounterView";
 
 
 
 function App() {
   return (
     <div>
-      Welcome React
+      <h2>Counter App</h2>
+      <CounterView />
     </div>
   );
 }
